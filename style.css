@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bac9cc;
+}
+
+/* Add this style for logo and header */
+header {
+    position: relative;
+}
+
+/* Add this style for logo and header */
+header {
+    position: relative;
+}
+
+#logo {
+    float: right;
+    max-width: 150px; /* Adjust the width as needed */
+    margin-left: 10px; /* Adjust the margin as needed */
+    opacity: 9; /* Adjust the opacity to your preference (0.0 to 1.0) */
+    transition: opacity 0.2s ease; /* Add a smooth transition effect */
+}
+
+#logo:hover {
+    opacity: 1.0; /* Increase opacity on hover for emphasis */
+}
+
+
+
+header {
+    background-color: #333;
+    color: #1ce7dd;
+    padding: 1ch;
+    text-align: left;
+}
+
+/* Add this style for text animation */
+#home {
+    overflow: hidden;
+}
+
+#home h2 {
+    animation: slideRight 10s linear infinite; /* Adjust the duration as needed */
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/* Add this style to reduce spacing between headings */
+h3, h4, h5, h6 {
+    margin-top: 0.5em;
+    margin-bottom: em;
+    color: #e40a0a;
+}
+
+nav {
+    background-color: #b92323;
+    color: #e6cbcb;
+    text-align: center;
+    padding: 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+section {
+    padding: 2em;
+}
+
+footer {
+    background-color: #333;
+    color: #22cc12;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #e40a0a;
+    cursor: pointer;
+}
+
+/* Customized greeting style */
+#greeting {
+    font-size: 1.5em;
+}
